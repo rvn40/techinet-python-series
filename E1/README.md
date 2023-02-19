@@ -8,7 +8,7 @@
 ## Instructions
 
 For instruction in video format: 
-[![Python If Statement with Special Variable __name__](https://cdn.activestate.com/wp-content/uploads/2021/12/python-coding-mistakes.jpg)](https://www.google.com/search?client=opera-gx&q=python+techinet&sourceid=opera&ie=UTF-8&oe=UTF-8#fpstate=ive&vld=cid:5f9ece3d,vid:7cng0PQeBzE)
+[![Python If Statement with Special Variable __name__]](https://www.google.com/search?client=opera-gx&q=python+techinet&sourceid=opera&ie=UTF-8&oe=UTF-8#fpstate=ive&vld=cid:5f9ece3d,vid:7cng0PQeBzE)
 
 ##### How to run
 ```

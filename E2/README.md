@@ -12,7 +12,7 @@ Today Python is become a popular and universal programming language, meaning you
 
 For instruction in video format:
 
-[<img src="https://cdn.activestate.com/wp-content/uploads/2021/12/python-coding-mistakes.jpg" width="560" height="315">](https://www.youtube.com/embed/7cng0PQeBzE)
+[<img src="https://storage.googleapis.com/techinet-public/youtube/thumbnails/PythonSeries/E2.png" width="560" height="315">](https://www.youtube.com/embed/7cng0PQeBzE)
 
 ## How to install
 

@@ -3,7 +3,7 @@
 Today Python is become a popular and universal programming language, meaning you can create almost any programs with python. It’s versatile enough for use in web development and app design. 
 
 ## Prerequisite
-- A system running Ubuntu 18.04 or Ubuntu 20.04
+- A system running Ubuntu 22.04
 - An ubuntu user with sudo privileges
 - Access to a terminal/cli
 - Internet connection

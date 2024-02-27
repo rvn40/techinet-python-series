@@ -9,4 +9,4 @@
 
 For instruction in video format:
 
-[<img src="https://storage.googleapis.com/techinet-public/youtube/thumbnails/PythonSeries/E5.png" width="560" height="315">](https://youtu.be/kSojya-kucU)
+[<img src="https://storage.googleapis.com/techinet-public/youtube/thumbnails/PythonSeries/E5.png" width="560" height="315">](https://youtu.be/loTunAJOJgY)

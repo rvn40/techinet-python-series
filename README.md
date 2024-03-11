@@ -7,4 +7,5 @@
 2. [E2 - Python Labs (Ngoprek): How to Install Python 3 on Ubuntu 22.04](E2/README.md)
 3. [E3 - Python Labs (Ngoprek): Python Command Line Interface and Basic Programs Part 1](E3/README.md)
 4. [E4 - Python Labs (Ngoprek): Python Command Line Interface and Basic Programs Part 2](E4/README.md)
-4. [E5 - Python Labs (Ngoprek): Import and Using Escape String](E5/README.md)
+5. [E5 - Python Labs (Ngoprek): Import and Using Escape String](E5/README.md)
+6. [E6 - Python Labs (Ngoprek): User Input](E6/README.md)

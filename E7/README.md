@@ -1,4 +1,4 @@
-# Python Labs (Ngoprek): Data Types
+# Python Labs (Ngoprek): String Concatenation
 
 ## Prerequisite
 - 1 cpu and 2GB RAM
@@ -9,4 +9,4 @@
 
 For instruction in video format:
 
-[<img src="https://storage.googleapis.com/techinet-public/youtube/thumbnails/PythonSeries/E8.png" width="560" height="315">](https://youtu.be/loTunAJOJgY)
+[<img src="https://storage.googleapis.com/techinet-public/youtube/thumbnails/PythonSeries/E7.png" width="560" height="315">](https://youtu.be/loTunAJOJgY)

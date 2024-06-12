@@ -9,3 +9,5 @@
 4. [E4 - Python Labs (Ngoprek): Python Command Line Interface and Basic Programs Part 2](E4/README.md)
 5. [E5 - Python Labs (Ngoprek): Import and Using Escape String](E5/README.md)
 6. [E6 - Python Labs (Ngoprek): User Input](E6/README.md)
+7. [E7 - Python Labs (Ngoprek): Concatination](E7/README.md)
+8. [E8 - Python Labs (Ngoprek): DataType](E8/README.md)

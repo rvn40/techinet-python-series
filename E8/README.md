@@ -91,16 +91,6 @@ print(f"Type of is_valid: {type(is_valid)}, Type of has_error: {type(has_error)}
 ```
 **Explanation:** Booleans represent truth values: `True` or `False`. `is_valid` is assigned `True`, and `has_error` is assigned `False`. The `type()` function confirms that both are of type `bool`.
 
-### Complex Number
-```python
-# Complex: Complex numbers with real and imaginary parts
-complex_num = 2 + 3j
-print(f"Complex number: {complex_num}")
-print(f"Real part: {complex_num.real}, Imaginary part: {complex_num.imag}")
-print(f"Type of complex_num: {type(complex_num)}")
-```
-**Explanation:** Complex numbers have a real and an imaginary part. `complex_num` is assigned the value `2 + 3j`, where 2 is the real part and 3j is the imaginary part. The `type()` function confirms that `complex_num` is of type `complex`.
-
 ### NoneType
 ```python
 # NoneType: Represents the absence of a value
@@ -111,4 +101,14 @@ print(f"Type of nothing: {type(nothing)}")
 **Explanation:** `NoneType` represents the absence of a value. `nothing` is assigned `None`, which is used to signify that there is no value assigned. The `type()` function confirms that `nothing` is of type `NoneType`.
 
 These examples illustrate the variety of data types available in Python and how they can be used in practice. Each example includes the creation of a variable of the given type, some operations or accesses to demonstrate its use, and a check of the variable's type.
+
+### Complex Number
+```python
+# Complex: Complex numbers with real and imaginary parts
+complex_num = 2 + 3j
+print(f"Complex number: {complex_num}")
+print(f"Real part: {complex_num.real}, Imaginary part: {complex_num.imag}")
+print(f"Type of complex_num: {type(complex_num)}")
+```
+**Explanation:** Complex numbers have a real and an imaginary part. `complex_num` is assigned the value `2 + 3j`, where 2 is the real part and 3j is the imaginary part. The `type()` function confirms that `complex_num` is of type `complex`.
 

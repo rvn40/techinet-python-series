@@ -1,147 +1,129 @@
-# Python Labs (Ngoprek): Variables
+# Integer Data Type in Python Programming
 
-Understanding how to declare and assign variables is crucial because they form the backbone of your code, allowing you to store and manipulate data efficiently. Think of variables as containers that hold values, which you can use and modify as your program runs. So, let's jump in and explore the ins and outs of working with variables in Python, with plenty of examples to illustrate each concept!
-
-### Introduction
-
----
-
-#### 1. **Introduction to Variables in Python**
-   - **Definition of a Variable**
-     - Example: `x = 10`
-   - **Purpose of Variables**
-     - Storing data, making code reusable and readable, etc.
-
-#### 2. **Variable Declaration**
-   - **Implicit Declaration**
-     - Example: `name = "John"`
-   - **Dynamic Typing**
-     - Example: `age = 25`, `age = "Twenty Five"`
-
-#### 3. **Variable Assignment**
-   - **Basic Assignment**
-     - Example: `pi = 3.14`
-   - **Multiple Assignment**
-     - Example: `a, b, c = 1, 2, 3`
-   - **Swapping Variables**
-     - Example: `a, b = b, a`
-
-#### 4. **Types of Variables**
-   - **Global Variables**
-     - Example: 
-       ```python
-       global_var = "I am global"
-       def example_function():
-           print(global_var)
-       ```
-   - **Local Variables**
-     - Example: 
-       ```python
-       def example_function():
-           local_var = "I am local"
-           print(local_var)
-       ```
-   - **Nonlocal Variables**
-     - Example: 
-       ```python
-       def outer_function():
-           outer_var = "outer"
-           def inner_function():
-               nonlocal outer_var
-               outer_var = "inner"
-           inner_function()
-           print(outer_var)
-       outer_function()
-       ```
-
-#### 5. **Variable Types and Type Casting**
-   - **Different Data Types**
-     - Integer: `num = 10`
-     - Float: `pi = 3.14`
-     - String: `name = "Alice"`
-     - Boolean: `is_active = True`
-   - **Type Casting**
-     - Example: 
-       ```python
-       num = "100"
-       num_int = int(num)
-       ```
-
-#### 6. **Variable Naming Conventions**
-   - **Rules and Best Practices**
-     - Use descriptive names
-     - Start with a letter or underscore
-     - Avoid using Python keywords
-     - Example: 
-       ```python
-       student_name = "Alice"
-       _counter = 1
-       total_sum = 100
-       ```
-
-#### 7. **Immutable vs Mutable Variables**
-   - **Immutable Types**
-     - Strings, integers, floats, tuples
-     - Example: 
-       ```python
-       name = "Alice"
-       name = "Bob"  # Reassignment
-       ```
-   - **Mutable Types**
-     - Lists, dictionaries, sets
-     - Example: 
-       ```python
-       numbers = [1, 2, 3]
-       numbers[0] = 10
-       ```
-
-#### 8. **Scope of Variables**
-   - **Global Scope**
-     - Example: 
-       ```python
-       x = "global"
-       def my_func():
-           print(x)
-       my_func()
-       ```
-   - **Local Scope**
-     - Example: 
-       ```python
-       def my_func():
-           y = "local"
-           print(y)
-       my_func()
-       ```
-
-#### 9. **Constants in Python**
-   - **Defining Constants**
-     - By convention, constants are named in all uppercase
-     - Example: `PI = 3.14`
-   - **Using Constants**
-     - Example: 
-       ```python
-       MAX_SPEED = 120
-       print(MAX_SPEED)
-       ```
-
-#### 10. **Best Practices and Common Pitfalls**
-   - **Avoiding Common Mistakes**
-     - Overwriting variables
-     - Example: 
-       ```python
-       x = 10
-       x = "text"  # Overwriting
-       ```
-   - **Best Practices**
-     - Use clear and meaningful names
-     - Keep variable scope limited to where it is needed
-
-#### 11. **Conclusion**
-   - **Recap of Key Points**
-     - Importance of proper variable declaration and assignment
-     - Impact on code readability and maintainability
-   - **Encouragement to Practice**
-     - Experiment with variables in different scopes and types
+## Introduction (0:00 - 0:30)
+   - **Greet your audience:**
+     - "Hey everyone! Welcome back to the channel. In today’s video, we’re diving into one of the most fundamental data types in Python: the Integer. Let’s explore what integers are, how we use them, and some important things you need to know!"
+   - **What will be covered in the video?**
+     - Brief explanation of integers in Python.
+     - How to define, use, and perform operations with integers.
+     - Integer properties and use cases.
 
 ---
 
+## What is an Integer in Python? (0:31 - 1:30)
+   - **Definition:**
+     - "An integer is a whole number, positive or negative, without any decimal points."
+     - Examples: `5`, `-3`, `100`, `0`.
+   - **Python’s Dynamic Typing:**
+     - "In Python, you don’t need to declare the data type explicitly. Python automatically recognizes the type based on the value."
+     - Example: `a = 10` → Python knows `a` is an integer.
+
+---
+
+## Declaring and Assigning Integer Variables (1:31 - 2:30)
+   - **Syntax:**
+     - "To create an integer variable, simply assign a whole number to a variable name."
+     - Example:
+       ```python
+       x = 42
+       y = -10
+       ```
+   - **Demonstration:** Show code on screen and execute in a Python interpreter to show integer assignments.
+
+---
+
+## Performing Operations with Integers (2:31 - 4:00)
+   - **Basic Arithmetic Operations:**
+     - **Addition:** `+`
+     - **Subtraction:** `-`
+     - **Multiplication:** `*`
+     - **Division:** `/` (produces float even if both operands are integers)
+     - **Integer Division:** `//` (returns an integer result)
+     - **Modulus:** `%` (returns the remainder of a division)
+     - **Exponentiation:** `**` (raises a number to the power of another)
+   - **Examples:**
+     ```python
+     a = 7
+     b = 3
+     
+     # Addition
+     print(a + b)  # 10
+     
+     # Integer division
+     print(a // b)  # 2
+     
+     # Modulus
+     print(a % b)  # 1
+     ```
+
+---
+
+## Type Conversion with Integers (4:01 - 5:00)
+   - **Implicit Conversion (Coercion):**
+     - "Python can automatically convert data types when needed. For example, when adding an integer and a float, Python automatically converts the integer to a float."
+     - Example:
+       ```python
+       x = 5   # int
+       y = 3.2 # float
+       result = x + y  # Python converts 5 to 5.0, so the result is 8.2 (float)
+       ```
+   - **Explicit Conversion:**
+     - Converting other types to integer using `int()`.
+     - Example:
+       ```python
+       float_value = 10.5
+       integer_value = int(float_value)  # Converts float to int (truncates decimal)
+       print(integer_value)  # Output: 10
+       ```
+
+---
+
+## Integer Limits and Size (5:01 - 6:00)
+   - **Python’s Arbitrary Precision:**
+     - "One of the great things about integers in Python is that they have arbitrary precision. This means that Python integers can grow as large as the available memory allows!"
+     - **Note:** Unlike some programming languages that have fixed-size integers, Python’s `int` type can handle extremely large numbers without overflow.
+   - **Example of Large Integers:**
+     - “You can even work with numbers like this:”
+       ```python
+       large_number = 123456789012345678901234567890
+       print(large_number)
+       ```
+
+---
+
+## Common Use Cases of Integers in Python (6:01 - 7:00)
+   - **Counter Variables:**
+     - Used for loops and counting.
+     - Example:
+       ```python
+       for i in range(5):
+           print(i)  # Prints 0, 1, 2, 3, 4
+       ```
+   - **Mathematical Calculations:**
+     - Integers are commonly used in mathematical operations like addition, subtraction, multiplication, and division in many programs.
+   - **Indices for Lists and Arrays:**
+     - Integers are often used to reference positions in lists or arrays.
+
+---
+
+## Integer Overflow (7:01 - 7:30)
+   - **Explain Overflow:**
+     - "Unlike other languages, Python handles large integers quite well. However, if you're working with very large numbers in other environments (e.g., C, Java), you might run into **integer overflow**."
+     - Example: In languages like C, adding large integers may result in overflow and unpredictable behavior, but Python avoids this issue.
+   - **Practical advice:** "Although Python can handle large numbers, it's still important to optimize performance when dealing with extremely large values."
+
+---
+
+## Conclusion (7:31 - 8:00)
+   - **Recap:**
+     - “Today, we’ve learned about the integer data type in Python. We covered its basic operations, how to declare integer variables, perform arithmetic, and even deal with large numbers!”
+   - **Encourage Interaction:**
+     - “If you enjoyed the video or learned something new, don’t forget to give it a thumbs up and subscribe for more programming tutorials!”
+   - **Call to Action:**
+     - "Let me know in the comments what topics you'd like me to cover next. Thanks for watching, and see you in the next video!"
+
+---
+
+## End Screen (8:01 - 8:10)
+   - **Promote related videos** (e.g., "Basic Data Types in Python" or "Working with Strings in Python").
+   - **Display subscribe button and social media links.**

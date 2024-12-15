@@ -4,4 +4,4 @@ This repository contains a PowerPoint presentation titled "The Overview of Data 
 
 ## Video
 
-[<img src="https://storage.googleapis.com/techinet-public/youtube/thumbnails/PythonSeries/E7.png" width="560" height="315">](https://www.youtube.com/embed/s9Pm-UdVz-E?si=SUSZLwT3rrjBmXtu)
+[<img src="https://storage.googleapis.com/techinet-public/youtube/thumbnails/PythonSeries/E8.png" width="560" height="315">](https://www.youtube.com/embed/s9Pm-UdVz-E?si=SUSZLwT3rrjBmXtu)

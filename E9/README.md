@@ -1,6 +1,6 @@
 # Integer Data Type in Python Programming
 
-## Introduction (0:00 - 0:30)
+## Introduction 
    - **Greet your audience:**
      - "Hey everyone! Welcome back to the channel. In today’s video, we’re diving into one of the most fundamental data types in Python: the Integer. Let’s explore what integers are, how we use them, and some important things you need to know!"
    - **What will be covered in the video?**
@@ -10,7 +10,7 @@
 
 ---
 
-## What is an Integer in Python? (0:31 - 1:30)
+## What is an Integer in Python? 
    - **Definition:**
      - "An integer is a whole number, positive or negative, without any decimal points."
      - Examples: `5`, `-3`, `100`, `0`.
@@ -20,7 +20,7 @@
 
 ---
 
-## Declaring and Assigning Integer Variables (1:31 - 2:30)
+## Declaring and Assigning Integer Variables 
    - **Syntax:**
      - "To create an integer variable, simply assign a whole number to a variable name."
      - Example:
@@ -32,7 +32,7 @@
 
 ---
 
-## Performing Operations with Integers (2:31 - 4:00)
+## Performing Operations with Integers 
    - **Basic Arithmetic Operations:**
      - **Addition:** `+`
      - **Subtraction:** `-`
@@ -58,7 +58,7 @@
 
 ---
 
-## Type Conversion with Integers (4:01 - 5:00)
+## Type Conversion with Integers 
    - **Implicit Conversion (Coercion):**
      - "Python can automatically convert data types when needed. For example, when adding an integer and a float, Python automatically converts the integer to a float."
      - Example:
@@ -78,7 +78,7 @@
 
 ---
 
-## Integer Limits and Size (5:01 - 6:00)
+## Integer Limits and Size 
    - **Python’s Arbitrary Precision:**
      - "One of the great things about integers in Python is that they have arbitrary precision. This means that Python integers can grow as large as the available memory allows!"
      - **Note:** Unlike some programming languages that have fixed-size integers, Python’s `int` type can handle extremely large numbers without overflow.
@@ -91,7 +91,7 @@
 
 ---
 
-## Common Use Cases of Integers in Python (6:01 - 7:00)
+## Common Use Cases of Integers in Python 
    - **Counter Variables:**
      - Used for loops and counting.
      - Example:
@@ -106,7 +106,7 @@
 
 ---
 
-## Integer Overflow (7:01 - 7:30)
+## Integer Overflow 
    - **Explain Overflow:**
      - "Unlike other languages, Python handles large integers quite well. However, if you're working with very large numbers in other environments (e.g., C, Java), you might run into **integer overflow**."
      - Example: In languages like C, adding large integers may result in overflow and unpredictable behavior, but Python avoids this issue.
@@ -114,7 +114,7 @@
 
 ---
 
-## Conclusion (7:31 - 8:00)
+## Conclusion 
    - **Recap:**
      - “Today, we’ve learned about the integer data type in Python. We covered its basic operations, how to declare integer variables, perform arithmetic, and even deal with large numbers!”
    - **Encourage Interaction:**
@@ -123,7 +123,3 @@
      - "Let me know in the comments what topics you'd like me to cover next. Thanks for watching, and see you in the next video!"
 
 ---
-
-## End Screen (8:01 - 8:10)
-   - **Promote related videos** (e.g., "Basic Data Types in Python" or "Working with Strings in Python").
-   - **Display subscribe button and social media links.**

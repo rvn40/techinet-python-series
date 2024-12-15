@@ -1,14 +1,5 @@
 # Integer Data Type in Python Programming
 
-## Introduction 
-   - **Greet your audience:**
-     - "Hey everyone! Welcome back to the channel. In today’s video, we’re diving into one of the most fundamental data types in Python: the Integer. Let’s explore what integers are, how we use them, and some important things you need to know!"
-   - **What will be covered in the video?**
-     - Brief explanation of integers in Python.
-     - How to define, use, and perform operations with integers.
-     - Integer properties and use cases.
-
----
 
 ## What is an Integer in Python? 
    - **Definition:**
@@ -104,22 +95,3 @@
    - **Indices for Lists and Arrays:**
      - Integers are often used to reference positions in lists or arrays.
 
----
-
-## Integer Overflow 
-   - **Explain Overflow:**
-     - "Unlike other languages, Python handles large integers quite well. However, if you're working with very large numbers in other environments (e.g., C, Java), you might run into **integer overflow**."
-     - Example: In languages like C, adding large integers may result in overflow and unpredictable behavior, but Python avoids this issue.
-   - **Practical advice:** "Although Python can handle large numbers, it's still important to optimize performance when dealing with extremely large values."
-
----
-
-## Conclusion 
-   - **Recap:**
-     - “Today, we’ve learned about the integer data type in Python. We covered its basic operations, how to declare integer variables, perform arithmetic, and even deal with large numbers!”
-   - **Encourage Interaction:**
-     - “If you enjoyed the video or learned something new, don’t forget to give it a thumbs up and subscribe for more programming tutorials!”
-   - **Call to Action:**
-     - "Let me know in the comments what topics you'd like me to cover next. Thanks for watching, and see you in the next video!"
-
----

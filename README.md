@@ -11,4 +11,4 @@
 6. [E6 - Python Labs (Ngoprek): User Input](E6/README.md)
 7. [E7 - Python Labs (Ngoprek): Concatination](E7/README.md)
 8. [E8 - Python Labs (Labs): The Overview of DataType in Python](E8/README.md)
-8. [E9 - Python Labs (Ngoprek): The Integers in Python](E8/README.md)
+9. [E9 - Python Labs (Ngoprek): The Integers in Python](E8/README.md)
